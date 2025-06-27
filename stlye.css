@@ -5,7 +5,7 @@
 }
 
 body{
-    height: 640px;
+    height: 1000px;
     position: relative;
     background-image: url("https://cdn.pixabay.com/photo/2025/06/11/17/18/red-gana-top-9654874_1280.jpg");
     background-repeat: no-repeat;
@@ -38,12 +38,44 @@ body::before{
 }
 
 .box{
-    background-color: white;
     margin-right: 50px;
     width: 20%;
-    height: 80%;
+    height: 100%;
     display: inline-flex;
     align-items: center;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.box>p{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-content: center;
+
+}
+
+.box>p:hover{
+    background-color: black;
+    opacity: 0.8;
+}
+
+.container-body{
+    height: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+.box-body{
+    font-size: 30px;
+    opacity: 0.8;
+    position: relative;
+    padding: 50px;
+    height: 400px;
+    width: 300px;
+    background-color: black;
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
 }
